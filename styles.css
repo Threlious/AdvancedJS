@@ -1,0 +1,12 @@
+header {
+    border: 1px solid #000000;
+}
+
+main {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.goods-list {
+    gap: 20px;
+}
