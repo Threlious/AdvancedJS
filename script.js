@@ -1,5 +1,5 @@
 const API_URL = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
-
+let A
 const app = new Vue({
     el: '#app',
     data: {
