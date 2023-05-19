@@ -1,3 +1,4 @@
+const A = 5;
 const app = new Vue({
     el: '#app',
     data: {
