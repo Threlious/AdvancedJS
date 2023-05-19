@@ -1,0 +1,24 @@
+{
+  "name": "advancedjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Threlious/AdvancedJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Threlious/AdvancedJS/issues"
+  },
+  "homepage": "https://github.com/Threlious/AdvancedJS#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-static": "^0.7.11",
+    "vue-router": "^4.2.1"
+  }
+}
