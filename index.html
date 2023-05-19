@@ -16,29 +16,19 @@
 </head>
 
 <body>
-    <div id="app">
+    <div id="app">        
         <header class="d-flex justify-content-end w-100 p-2 mb-3">
             <input id='search_input' style="width: 200px;" type="text" class="form-control me-2" />
-            <button id='search_btn' class="btn btn-outline-secondary" type="search" @click="searchHandler">Искать</button>
+            <button id='search_btn' class="btn btn-outline-secondary" type="search"
+                @click="searchHandler">Искать</button>
             <button class="ms-4 cart-button btn btn-primary" type="button">Корзина</button>
-        </header>
-        <main>
-            <div class="goods-list d-flex goods-list flex-wrap justify-content-center">
-                <div class="goods-item" v-for="good in filteredGoods">
-                    <div class="goods-item">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                            <h5 class="card-title">{{good.product_name}}</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                            <p class="card-text">Цена: {{good.price}} р</p>                    
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-            </div>
+        </header>        
+        <main>                        
+            <goods-list :goods="filteredGoods"></goods-list>        
         </main>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script src="comp.js"></script>
     <script src="script.js"></script>
 </body>
 
